@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="69" viewBox="0 0 20 69">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="botao_1" data-name="botao 1" class="cls-1" d="M500,560a10,10,0,0,1,10,10v24a10,10,0,0,1-20,0V570A10,10,0,0,1,500,560Zm0-25a10,10,0,0,1,10,10v24a10,10,0,0,1-20,0V545A10,10,0,0,1,500,535Z" transform="translate(-490 -535)"/>
+</svg>

@@ -1,0 +1,42 @@
+*{
+  font-family:foliobook;
+}
+
+@font-face{
+  font-family: foliobook;
+  src: url(../css/font/folio-bk-bt-book.ttf) format(truetype);
+}
+@font-face{
+  font-family: foliolight;
+  src: url(../css/font/folio-lt-bt-light.ttf) format(truetype);
+}
+
+body{
+  
+  background-color: white;
+}
+
+header p{
+  margin-top: 11px;
+  margin-left: -7px;
+}
+
+.social-media{
+  justify-items: center;
+  justify-content: center;
+  margin-left: 300px;
+  float: right;
+  
+}
+
+.social-media .brasil-logo{
+  padding:12px;
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+}
+
+.brasil-logo:hover{
+  color: #4b777f;
+  transition: 500ms;
+}
+

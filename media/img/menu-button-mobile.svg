@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="20" viewBox="0 0 23 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #333;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="14" y="12" width="23" height="20" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="1" in="SourceAlpha"/>
+      <feFlood result="flood" flood-color="#030004" flood-opacity="0.75"/>
+      <feComposite result="composite" operator="out" in2="blur"/>
+      <feOffset result="offset" dx="1" dy="1.732"/>
+      <feComposite result="composite-2" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend" mode="multiply" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Retângulo_Arredondado_3_cópia_2" data-name="Retângulo Arredondado 3 cópia 2" class="cls-1" d="M16.347,12H34.653a2.381,2.381,0,0,1,0,4.762H16.347A2.381,2.381,0,0,1,16.347,12Zm0,7.619H34.653a2.381,2.381,0,0,1,0,4.762H16.347A2.381,2.381,0,0,1,16.347,19.619Zm0,7.619H34.653a2.381,2.381,0,0,1,0,4.762H16.347A2.381,2.381,0,0,1,16.347,27.238Z" transform="translate(-14 -12)"/>
+</svg>

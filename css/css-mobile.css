@@ -1,85 +1,187 @@
 @media(max-width:600px){
   body{
     background-color: #333;
-    display: grid;
-    width: 100%;
-    min-height: 100vh; 
-     grid-template-columns: 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr;
     grid-template-rows: 42px 140px 350px 220px;
     grid-template-areas: 
           'mobile-menu'
           'logotipo'
           'navegacao'
-          'rodape';
+          'rodape'; */
+  }
+
+  .logo-desktop, .simbolo {
+    display: none;
   }
 
   .container-body{
-    
     grid-area: navegacao;
-    /* background-image: url(../media/img/image-1.png);
-    background-repeat: no-repeat;
-    background-size: 200%;
-    background-position-x: right;
-    background-position-y: center; */
-  
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    top: 10%;
+    overflow: hidden;
+    border-radius: 0 0 1% 100% / 1% 10%;
+    box-shadow: 1px 10px 1px #3e949c;
+    /* border: solid 6px violet; */
     
   }
 
-  .image-1{
-    margin-top: 20%;
-    width: 200%;
-    float: right;
-    /* background-color: #333; */
+  .image-slide{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: center;
+    width: 100%;
+    height: 60vh;
+    background-color: #333;
+    object-fit: cover;
+    /* border: 15px solid red; */
   }
 
-  .button-img{
-    /* width: 100%; */
-    /* height: 100%; */
+  .image-slide img{
+
+    opacity: 0;
+    width: 200%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    /* right: 0; */
+    transition: 1000ms ease-out;
   }
+
+  .image-slide img.selected{
+    opacity: 1;
+  }
+
+  section{
+    width: 100%;
+    height: 60vh ;
+    background-color: #333;
+    /* margin-bottom: 10%; */
+    /* border: solid 5px orange; */
+
+  } 
   
   .logo-mobile{
+    z-index: 2;
     grid-area: logotipo;
     position: absolute;
     width: 100%;
   }
-  .footer{
-    width: 100%;
-    overflow: hidden;
-    grid-area: rodape;
-    display: block;
-    color: white;
-    border-top: solid 1px rgba(3, 5, 1, 0.5);
-    background-color: #333;
 
+/* == TEXT BOX  */
+
+.text-box{
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  right: 10%;
+  max-width: 420px;
+  height: 200px;
+  background-color:rgba(40, 40, 40, 0.7);
+  border-radius: 50% 50% 0 0 / 20% 20%;
+  padding: 0;
+}
+
+
+.content-text-seta{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  height: 100%;
+  max-width: 420px;
+  border-radius: 50% 50% 0 0 / 20% 20%;
+}
+
+.text-content{
+  margin: 10% auto 0 5%;  
+  text-align: start;
+  font-size: 1.3rem;
+  color: white;
+  padding: 0;
+}
+
+.text-content a{
+  color: #54c5d0;
+}
+
+.botao-seta{
+  background-image: url(../media/img/botao-seta.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  margin: 0 auto 0 6%;
+  width: 420px;
+  height: 50px;
+
+
+  cursor: pointer;
+}
+
+
+  /* == FOOTER MOBILE ==  */
+
+  
+  .footer{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-rows: 30% 50%;
+    grid-template-columns: 450px 450px 500px; */
+    color: white;
+    height: 200px;
+    border-top: solid 1px rgb(3,3,3, 1);
+    box-shadow: 1px -3px 1px #454545;
+    background-color: #333;
   }
 
   .footer-content{
-    padding: 30px;
+    box-sizing: content-box;
+    margin-top: 10%;
+    padding-left: 3%;
+    display: block;
+    width: 100%;
+    /* border: solid 5px red; */
   }
-
   .address{
-    display: flex;
-    justify-content: center;
-  }
-  
-  .email{
-    margin-top: 20px;
-    justify-content: center;
-    display: flex;
-  }
-
-  .email img{
-    margin-top: 5px;
-    margin-right: 15px;
-    width: 16px;
-    height: 14px;
+  text-align: start;
+  /* border: solid 1px red; */
+  display: flex;
+  justify-content: flex-start;
+  width: 350px;
   }
 
   .address img{
-    margin-top: 3px;
-    margin-right: 15px;
-    width: 16px;
-    height: 20px;
+    margin: 5px;
+    margin-top: 1px;
+    margin-bottom: 15%;
+    align-self: center;
+  }
+
+  .email{
+    margin-top: 3%;
+    display: flex;
+    justify-content: flex-start;
+    width:100%;
+  
+  }
+
+  .email img{
+    margin-left: 5px;
+    margin-right: 5px;
+    align-self: center;
+  }
+
+  
+  .logo-internit{
+    margin-left: 73%;
   }
 
 }

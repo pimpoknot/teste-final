@@ -12,8 +12,9 @@
 }
 
 body{
-  
-  background-color: white;
+  /* height: 100vh; */
+  /* background-color: rgb(247, 6, 194); */
+  background-color: #333333;
 }
 
 header p{
@@ -38,5 +39,15 @@ header p{
 .brasil-logo:hover{
   color: #4b777f;
   transition: 500ms;
+}
+
+.simbolo{
+  position: absolute;
+  opacity: 0.1;
+  height: 50%;
+  right: 50%;
+  left: 63%;
+
+  top: 76%
 }
 

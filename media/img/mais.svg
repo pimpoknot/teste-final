@@ -1,0 +1,31 @@
+<svg id="mais" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.44" height="19.625" viewBox="0 0 19.44 19.625">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #333;
+        filter: url(#filter);
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #54c5d0;
+      }
+    </style>
+    <filter id="filter" x="1329.56" y="4.188" width="19.44" height="19.625" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#333"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feGaussianBlur result="blur" stdDeviation="1" in="SourceAlpha"/>
+      <feFlood result="flood-2" flood-color="#020002" flood-opacity="0.75"/>
+      <feComposite result="composite-2" operator="out" in2="blur"/>
+      <feOffset result="offset" dy="2"/>
+      <feComposite result="composite-3" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-2" mode="multiply" in2="blend"/>
+    </filter>
+  </defs>
+  <path id="mais-2" data-name="mais" class="cls-1" d="M1339.28,4.172A9.828,9.828,0,1,1,1329.56,14,9.773,9.773,0,0,1,1339.28,4.172Z" transform="translate(-1329.56 -4.188)"/>
+  <path id="_" data-name="+" class="cls-2" d="M1339.97,18.173V14.654h3.49V13.183h-3.49V9.69h-1.48v3.493h-3.5v1.471h3.5v3.519h1.48Z" transform="translate(-1329.56 -4.188)"/>
+</svg>

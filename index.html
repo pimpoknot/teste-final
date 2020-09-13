@@ -18,10 +18,18 @@
     
     <nav class="wrap-menu">
       <div class="btnMenu-container">
+        <div class="redes-sociais-desktop">
+          <p>Compartilhe nas redes sociais:</p>
+          <a class="facebook-desktop" href="https://pt-br.facebook.com/"></a>
+          <a class="twitter-desktop" href="#"></a>
+          <a class="plus-desktop" href="#"></a>
+          <a class="brasil" href="#"></a>
+          <a class="usa" href="#"></a>
+        </div>
         <a href="#menu" class="btnMenu btnMenu_open">MENU</a>
         <div class="countryIcon">
           <div class="brasil-logo">
-            <img src="/media/img/simbolo.png" alt="brasil">
+            <img src="/media/img/brasil.png" alt="brasil">
           </div>
           <div class="usa-logo">
             <img src="/media/img/usa.png" alt="usa">
@@ -29,8 +37,9 @@
           
         </div>        
       </div>
-      <div class="menu-container">
+         <div class="menu-container">
         <ul id="menu" class="menu">
+          <img class="logo-desktop" src="/media/img/logo.svg" alt="logo-desktop">
           <li class="btnMenu btnMenu_close">Sair</li>
           <li class="menu-item">
             <a href="" class="menu-item-action">Quem Somos</a>
@@ -48,36 +57,57 @@
             <a href="" class="menu-item-action">Contato</a>
           </li>
         </ul>
-      </div>
-      
+        </div>
+        <img class="logo-mobile" src="/media/img/base-logo.png" alt="base-logo">
     </nav>
     
   </header>
   <main>
-    <div class="container-body">
-      <img class="logo-mobile" src="/media/img/base-logo.png" alt="base-logo">
-      <!-- <button class="button" > <img src="/media/img/botao.png" alt=""></button> -->
-        <!-- <img class="image-1" src="/media/img/image-2.png" alt=""> -->
-      <!-- <embed class="background" src="/media/img/banner.svg" type=""> -->
-          
+    <section>
+      <!-- <img class="simbolo" src="/media/img/simbolo.svg" alt="simbolo"> -->
+      <div class=" content container-body">
+        <div class="image-slide">
+          <img id="image1" class="selected" src="/media/img/image-1.png" alt="image-1">
+          <img id="image2" src="/media/img/image-2.png" alt="image-1">
+          <img id="image3" src="/media/img/image-3.png" alt="image-1">
+          <img id="image4" src="/media/img/image-4.png" alt="image-1">
+          <img id="image5" src="/media/img/image-5.png" alt="image-1">
+        </div>
+        <div class="text-box">
+          <div class="content-text-seta">
+            <h1 class="text-content">Consultoria e<br>Representações na<br>
+              Indústria de <a target="_blank" >Óleo e Gás!</a></h1>
+            <div onclick="nextSeta()" class="botao-seta"></div>
+          </div> 
+        </div>
+      </div>
+      </div>
+      <div class="radio-button">
+        <button onclick="Image1()" id="button1" class="selected radioDefault radio1">1</button>
+        <button onclick="Image2()" id="button2" class="radioDefault radio2">2</button>
+        <button onclick="Image3()" id="button3" class="radioDefault radio3">3</button>
+        <button onclick="Image4()" id="button4" class="radioDefault radio4">4</button>
+        <button onclick="Image5()" id="button5" class="radioDefault radio5">5</button>
+      </div>
+    </section>
+    <div class="footer">
+      <div class="footer-content">
+        <div class="address">
+          <img src="/media/img/posicao.png" alt="position">
+          <p>Rua Itaperuna, nº 200 | Santa Rosa Niterói, Rio de Janeiro, Brasil<br>
+            CEP: 24240-070 | Tel.:(21) 2621-7788 / (21) 2613-3700</p>
+          </div>
+          <div class="email">
+            <img src="/media/img/carta.png" alt="carta">
+            <p>contato@petrosol.adv.br</p>
+          </div>
+        </div>
+    <div class="logo-internit">
+        <img class="logo-internit-img" src="/media/img/logo internit.svg" alt="">
+      </div>
     </div>
   </main>
-
-<div class="footer">
-  <div class="footer-content">
-
-    <div class="address">
-      <img src="/media/img/posicao.png" alt="position">
-      <p>Rua Itaperuna, nº 200 | Santa Rosa<br>Niterói, Rio de Janeiro, Brasil<br>
-      CEP: 24240-070<br> Tel.:(21) 2621-7788 / (21) 2613-3700</p>
-    </div>
-    <div class="email">
-      <img src="/media/img/carta.png" alt="carta">
-      <p>contato@petrosol.adv.br</p>
-    </div>
-     
-  </div>
-</div>
 <script src="/js/btnMenu.js"></script>
+<script src="/js/script.js"></script>
 </body>
 </html>

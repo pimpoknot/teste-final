@@ -1,6 +1,6 @@
 @media(max-width:600px){
 .menu{
-  z-index: 1;
+  z-index: 4;
   position: absolute;
   top: 0;
   left: 0;
@@ -100,6 +100,14 @@
   overflow: hidden;
 }
 
+.image-2, .image-3, .image-4, .image-5{
+  display: none;
+}
+
+.radio-button{
+  display: none;
+}
+
 
 
 .brasil-logo{
@@ -129,6 +137,10 @@
   background-color: #4b777f;
   transition: 400ms;
 
+}
+
+.redes-sociais-desktop{
+  display: none;
 }
 
 }

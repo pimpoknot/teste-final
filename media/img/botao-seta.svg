@@ -1,0 +1,18 @@
+<svg id="botao" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="373" height="51" viewBox="0 0 373 51">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #54c5d0;
+      }
+    </style>
+    <image id="image" width="11" height="27" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAbCAYAAACqenW9AAABE0lEQVQ4jY3TvyvFURjH8evHLVImQmFGkVkM/gEWk0EYDHaLwaKsBoNFDOzsBhGLVVFKJoMiFmWQlw7PcFP3nPvU53yH7/vzdJ5zPqeCRaRvUWl5wFIjhrQ84w3TjcBr/uoRYyW4DQdhOENvDk7qw3kYDlHNwUnDMWyqrRKcNIWXMKyW4KQFfOMDsyU4aSO632O8BLdgPwyX6M7BSZ04DcMx2ktXPIjrMOw0V/L1VfO3muvaiqPoeoWuHLxek5mR3IAz+MQ75nJHN4Sn6LqJpnpwBy4CPEFzvRtMSdsN8Bb9uWysxD7Tq5nIpW4yhkm1nAv/AG4C3C49q70AUw56SvBrHNVoISe/8N3/kOfg+UZAVH4AN8WRaULaqcsAAAAASUVORK5CYII="/>
+  </defs>
+  <g id="base">
+    <image id="Retângulo_Arredondado_2" data-name="Retângulo Arredondado 2" x="292" width="81" height="51" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFEAAAAzCAYAAADvs+RnAAACyUlEQVR4nO2bwWsTQRSHP8WrePIkCF5FVLxJD4qi0KPSi+hFxT9AbwqKPbX+EUqhIl5EKBVLK1QFIWDRWNAKSpWKF1FURMGaVnnhpcRNssnOvu3sZueD3Lo77/c12Z2debth6En1L4FUbAz60hMkGhAkGhAkGhAkGhAkGhAkGhAkGhAkGhAkGiAS/xQ+hV9qIvFXmQ0Y8FMkfi18DL98E4lfymzAgM8icanwMfyyJBIXy2zAgEWRuFD4GH5ZEInVMhswYF4kzodpjjM/gOeNyfbTgobwzePGZFuYKq+HVMzS9OwcJLrxgCaJcnN5U7AAvnkLvCCyinO7lCrcWfPVLPEGsFqgED4RT9cb4zdLfA9Ml0qFO9Pqq050UfZaQUL45j9PUYkPgUppVLhRUU9rtNseuJzzEL65Eh2/nUSZ+9zvexVuyHx6Jnpkp42qC8DvHIbwifg43278ThJfAyN9qcKdEfXSQtyWqRz0LMeh1pNq3JcqTuIycDIsk9Xzn1Afbem2eS9f37PZ15lrznX6GTfopQNCnhFHS6GrFcl9q9sf9dpGcgkYNy4w74xr7q70KlHeMDgNTJRE4ITm7enNiiQNTSt6gZ10r60QTGrOlV6LTdoVJneqY8BY/7mrM6b5Es1IXFrrasCZPrzZjGquWtIDXfsT5VpxETguDT2O58gLUv+Q5nF6uyxtk+ddYB8wl1tF8cxp/XfSnMSiU/YdMABcjZvV54xlrXdA60+FVbuxFDUM7C3A9uuU1jls9U+37tmW5qhB4GgOV8grWtegdRNXVo3vsnC5HzgE3PO4i7iq4x/WeloWVC3YlHGIWf1sA07pZ1fGYwov9bHtJvAx68HkpfGsx4iyGzgCHAQOAJsNzindWY90A2lGO93WDR8Sm5Ffwh690O8EdgDbga0qd4tecuRn+V1lfQI+6F31lS6YSjtH4kmyCcA/TqSHt2n1hBgAAAAASUVORK5CYII="/>
+  </g>
+  <g id="setas">
+    <use id="Forma_5_cópia" data-name="Forma 5 cópia" x="325" y="10" xlink:href="#image"/>
+    <use id="Forma_5_cópia_2" data-name="Forma 5 cópia 2" x="333" y="10" xlink:href="#image"/>
+  </g>
+  <rect id="linha" class="cls-1" width="373" height="1"/>
+</svg>
